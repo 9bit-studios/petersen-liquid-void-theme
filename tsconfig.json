@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_comment": "Fresh Glass Theme - TypeScript Configuration",
+  "_authority": "Quantum Spatial Workspace Base Configuration",
+  "_purpose": "HIG-compliant design theme with Apple Design Language",
+
+  "extends": "../tsconfig.base.json",
+
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": ".",
+    "composite": true,
+    "declarationDir": "./dist/types",
+    "noPropertyAccessFromIndexSignature": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "baseUrl": ".",
+    "paths": {
+      "@fresh-glass/*": ["./src/*"],
+      "@/tokens/*": ["./tokens/*"],
+      "@/theme/*": ["./theme/*"],
+      "@/components/*": ["./components/*"]
+    }
+  },
+
+  "include": [
+    "src/**/*",
+    "tokens/**/*",
+    "theme/**/*",
+    "components/**/*"
+  ],
+
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "*.test.ts",
+    "*.spec.ts",
+    "**/*.js",
+    "petersen-*/**/*",
+    "liquid-*/**/*"
+  ]
+}

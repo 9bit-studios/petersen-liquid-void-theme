@@ -84,7 +84,7 @@
     "prettier": "^3.0.0",
     "tsx": "^4.7.0",
     "typescript": "^5.9.3",
-    "vercel": "^50.1.6",
+    "vercel": "^50.3.0",
     "vitest": "^4.0.9"
   },
   "lint-staged": {

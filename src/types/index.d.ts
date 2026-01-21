@@ -27,18 +27,18 @@ export type {
   ServiceConfig,
   ServiceStatus,
   ServiceValidationResult
-} from '../../../Oksana/types/services';
+} from '../../../scripts/services/types/services';
 
 export type {
   SecureEnvironmentConfig,
   SecureEnvironmentVariable
-} from '../../../Oksana/types/secure-environment';
+} from '../../../types/secure-environment';
 
 export type {
   DesignToken,
   TokenCollection,
   TokenCategory
-} from '../../../Oksana/types/tokens';
+} from '../../../scripts/services/types/tokens';
 
 // Re-export the generated Apple Intelligence enhanced types
 // Note: apple-intelligence.d.ts is more comprehensive and should be primary

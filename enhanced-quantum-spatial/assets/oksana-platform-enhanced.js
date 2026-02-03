@@ -8,7 +8,7 @@
  * - Swift Frontend Service: Active
  * - Creative Intelligence Bridge: Active
  * - Figma MCP Server: Available
- * - Quantum-Spatial Design: Active
+ * - Quantum-Spatial Design: Inactive
  */
 
 class OksanaPlatformEnhancedTheme {

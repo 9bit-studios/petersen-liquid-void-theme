@@ -20,15 +20,21 @@
       "@/tokens/*": ["./tokens/*"],
       "@/theme/*": ["./theme/*"],
       "@/components/*": ["./components/*"],
-      "@/apple-hig/*": [
-        "../../validation/enhanced-apple-hig-qa-validator*"
-      ],
-      "@/quantum-spatial/*": [
-        "../design-system/*"
-      ],
-      "@/sources-of-truth/*": [
-        "../../apple-intelligence/foundation/sources-of-truth/*"
-      ]
+
+      "@/design-system/*": ["../design-system/*"],
+      "@/quantum-spatial/*": ["../design-system/*"],
+      "@quantum-spatial/design-system/*": ["../design-system/*"],
+      "@quantum-spatial/design-system/hooks": ["../design-system/hooks/index.ts"],
+      "@quantum-spatial/design-system/tokens": ["../design-system/tokens"],
+      "@quantum-spatial/design-system/tokens/*": ["../design-system/tokens/*"],
+
+      "@/apple-intelligence/*": ["../../apple-intelligence/*"],
+      "@/strategic-director/*": ["../../bridges/swift-typescript/generated/*"],
+      "@/sources-of-truth/*": ["../../apple-intelligence/foundation/sources-of-truth/*"],
+      "@/apple-hig/*": ["../../apple-intelligence/foundation/sources-of-truth/*"],
+      "@/validation/*": ["../../validation/*"],
+      "@/bridges/*": ["../../bridges/*"],
+      "@/foundation-models/*": ["../../foundation-models/*"]
     }
   },
 

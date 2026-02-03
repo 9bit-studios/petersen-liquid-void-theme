@@ -56,7 +56,7 @@
    - Collector segment progression
    - Cross-channel journey mapping
 
-3. **Update Notion databases** with horror gaming specific properties:
+3. **Update Notion datasources** with horror gaming specific properties:
    - Cthulhu Wars engagement tracking
    - Collector edition performance
    - Horror theme effectiveness scores

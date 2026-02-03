@@ -23,12 +23,12 @@
 
 ## 🎯 Executive Summary
 
-We've built a comprehensive analytics system that automatically syncs your Shopify customer data with Notion databases, applies Grid API intelligence, and provides real-time insights into customer behavior, campaign performance, and revenue metrics. The system tracks what people are clicking and buying, with special focus on horror gaming segments and collector behavior.
+We've built a comprehensive analytics system that automatically syncs your Shopify customer data with Notion datasources, applies Grid API intelligence, and provides real-time insights into customer behavior, campaign performance, and revenue metrics. The system tracks what people are clicking and buying, with special focus on horror gaming segments and collector behavior.
 
 ### Key Achievements:
 - ✅ **250 customers** analyzed and segmented
 - ✅ **$6,254.03** monthly revenue tracked
-- ✅ **5 databases** integrated and syncing
+- ✅ **5 datasources** integrated and syncing
 - ✅ **Live daily reports** with customer behavior analysis
 - ✅ **Campaign tracking** for flash sales and email performance
 - ✅ **Intelligent insights** via Grid API and Director analysis
@@ -47,7 +47,7 @@ Since GraphQL wasn't enabled for your token, we built a complete REST API client
 **Location**: `/lib/shopify-rest-client.ts`
 
 ### 2. **Notion Database Integration**
-Connected and populated 5 key databases:
+Connected and populated 5 key datasources:
 
 #### **Klaviyo Email Intelligence** (`217df587-7918-816f-b266-c0a35264cb52`)
 - Campaign performance metrics with corrected percentages
@@ -88,7 +88,7 @@ Created three main services:
 #### `petersen-analytics-sync.js`
 - Initial bulk sync of all customer data
 - Segment analysis and metrics calculation
-- One-time population of databases
+- One-time population of datasources
 
 #### `petersen-analytics-sync-fixed.js`
 - Corrected property mappings
@@ -228,7 +228,7 @@ node services/petersen-live-analytics-final.js
 ### Monthly Tasks (1 hour)
 
 1. **Full System Audit**
-- Verify all databases syncing correctly
+- Verify all datasources syncing correctly
 - Check for any failed syncs
 - Update environment variables if needed
 

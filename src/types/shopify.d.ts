@@ -165,7 +165,7 @@ declare global {
   }
 
   // Theme Settings
-  interface ShopifySettings {
+  interface ShopifyThemeSettings {
     [key: string]: string | number | boolean;
   }
 

@@ -70,7 +70,7 @@ Pick one of the three workflows above based on your immediate needs.
 - Enable intelligence features for content quality
 
 ### **Step 4: Start Creating Enhanced Content**
-- Write content directly in Notion databases
+- Write content directly in Notion datasources
 - Receive real-time quality feedback
 - Get strategic optimization suggestions
 - Collaborate with intelligent workflow automation
@@ -101,7 +101,7 @@ Pick one of the three workflows above based on your immediate needs.
 4. Review strategic recommendations
 
 ### **This Week: Set Up Team Workflow**
-1. Choose primary databases for your team
+1. Choose primary datasources for your team
 2. Configure sharing and access levels  
 3. Train team on intelligence features
 4. Start collaborative content creation
@@ -109,7 +109,7 @@ Pick one of the three workflows above based on your immediate needs.
 ### **This Month: Optimize & Scale**
 1. Monitor quality metrics across all content
 2. Refine workflow automations
-3. Expand to additional databases
+3. Expand to additional datasources
 4. Leverage Grid API insights for strategic planning
 
 ## Support & Questions
@@ -120,4 +120,4 @@ Your current setup is **fully operational** with:
 - ✅ 100+ database access
 - ✅ Real-time content enhancement
 
-The **oksana-creator-portal** is ready for immediate use with enhanced collaboration, automatic quality scoring, and strategic intelligence powered by Grid API analytics.
+The **oksana-creatrix-portal** is ready for immediate use with enhanced collaboration, automatic quality scoring, and strategic intelligence powered by Grid API analytics.

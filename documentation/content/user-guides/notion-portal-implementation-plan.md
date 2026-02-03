@@ -899,4 +899,4 @@ const integrationMap = {
 
 **Status**: 🚀 READY FOR IMPLEMENTATION  
 **Next Step**: Execute database creation with provided schemas  
-**Priority**: Start with Campaign Master and Content Library databases
+**Priority**: Start with Campaign Master and Content Library datasources

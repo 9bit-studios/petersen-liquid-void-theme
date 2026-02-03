@@ -1,4 +1,4 @@
- // Apple HIG Runtime Validator
+// Apple HIG Runtime Validator
 // Based on your existing type definitions
 
 interface HIGValidationResult {
@@ -6,6 +6,25 @@ interface HIGValidationResult {
   score: number;
   violations: HIGViolation[];
   touchTargets: TouchTargetValidation[];
+  colorContrast: ColorContrastValidation[];
+  spacing: SpacingValidation[];
+}
+
+interface ColorContrastValidation {
+  foreground: string;
+  background: string;
+  ratio: number;
+  wcagAA: boolean;
+  wcagAAA: boolean;
+  element: string;
+}
+
+interface SpacingValidation {
+  element: string;
+  property: string;
+  value: string;
+  expectedGrid: boolean;
+  recommendation?: string;
 }
 
 interface HIGViolation {
@@ -59,7 +78,9 @@ class AppleHIGValidator {
       isCompliant: violations.filter(v => v.severity === 'error').length === 0,
       score,
       violations,
-      touchTargets
+      touchTargets,
+      colorContrast: [],
+      spacing: []
     };
   }
 
@@ -174,7 +195,9 @@ class AppleHIGValidator {
       isCompliant: allViolations.filter(v => v.severity === 'error').length === 0,
       score: overallScore,
       violations: allViolations,
-      touchTargets: allTouchTargets
+      touchTargets: allTouchTargets,
+      colorContrast: [],
+      spacing: []
     };
   }
 
@@ -208,7 +231,7 @@ window.HIGValidator = new AppleHIGValidator();
 if (process.env.NODE_ENV === 'development') {
   document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
-      const report = window.HIGValidator.generateReport();
+      const report = window.HIGValidator?.generateReport();
       console.log(report);
     }, 1000);
   });

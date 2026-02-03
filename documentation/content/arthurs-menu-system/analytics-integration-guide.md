@@ -225,13 +225,13 @@ We have successfully implemented a comprehensive social media analytics and camp
 ### Core Setup Scripts
 
 1. **`setup-social-media-analytics.js`**
-    - Creates all 5 intelligence databases
+    - Creates all 5 intelligence datasources
     - Configures platform options (8 platforms)
     - Sets up property relationships
     - Initializes tracking properties
 2. **`create-petersen-campaigns.js`**
     - Creates 21 sample campaigns
-    - Populates all databases with content
+    - Populates all datasources with content
     - Generates realistic performance data
     - Sets up campaign coordination
 3. **`content-intelligence-automation.js`**
@@ -244,7 +244,7 @@ We have successfully implemented a comprehensive social media analytics and camp
 ### Usage Instructions
 
 ```bash
-# 1. Set up databasescd /Users/pennyplatt/Documents//notion/Oksana-creator-portal
+# 1. Set up datasourcescd /Users/pennyplatt/9BitStudios//notion/Oksana-creatrix-portal
 node setup-social-media-analytics.js
 # 2. Create sample campaignsnode create-petersen-campaigns.js
 # 3. Run intelligence automationnode content-intelligence-automation.js
@@ -334,7 +334,7 @@ Each platform has specific optimization guidelines built into the content intell
 
 ### Key Files Location
 
-- **Base Directory**: `/Users/pennyplatt/Documents//notion/Oksana-creator-portal/`
+- **Base Directory**: `/Users/pennyplatt/9BitStudios//notion/Oksana-creatrix-portal/`
 - **Setup Scripts**: `setup-social-media-analytics.js`
 - **Campaign Creation**: `create-petersen-campaigns.js`
 - **Automation**: `content-intelligence-automation.js`
@@ -343,11 +343,11 @@ Each platform has specific optimization guidelines built into the content intell
 
 ### Database Access
 
-All databases are accessible via the Notion workspace and can be managed through the Product Design Intelligence Hub parent page.
+All datasources are accessible via the Notion workspace and can be managed through the Product Design Intelligence Hub parent page.
 
 ### API Configurations
 
-Environment variables are loaded from `/Oksana-creator-portal/.env.local` and include:
+Environment variables are loaded from `/Oksana-creatrix-portal/.env.local` and include:
 - Notion API Key
 - Grid API Key
 
@@ -360,7 +360,7 @@ Environment variables are loaded from `/Oksana-creator-portal/.env.local` and in
 
 ### Technical Implementation: 100% Complete
 
-- ✅ 5 Intelligence databases created
+- ✅ 5 Intelligence datasources created
 - ✅ 8 Platform integration complete
 - ✅ 21 Sample campaigns deployed
 - ✅ Apple Intelligence automation active

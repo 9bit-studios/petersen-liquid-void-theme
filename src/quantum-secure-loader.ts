@@ -26,7 +26,7 @@ class QuantumSecureLoader {
 
   constructor() {
     // Navigate up to Oksana root from quantum-spatial-design-system/lib
-    // lib -> quantum-spatial-design-system -> shopify-themes -> creative-intelligence-portal -> quantum-spatial -> Oksana
+    // lib -> quantum-spatial-design-system -> shopify-themes -> creatrix-portal -> quantum-spatial -> Oksana
     this.oksanaRoot = resolve(__dirname, '../../../../..');
 
     this.config = {

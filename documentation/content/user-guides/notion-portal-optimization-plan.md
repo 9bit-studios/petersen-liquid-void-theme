@@ -15,7 +15,7 @@
 - ✅ **Automation Workflows** - Documented, need activation
 
 ### What We're NOT Creating New
-- ❌ No duplicate databases
+- ❌ No duplicate datasources
 - ❌ No redundant integrations
 - ❌ No competing frameworks
 - ❌ No parallel systems
@@ -50,7 +50,7 @@ Grid Integration (Already Configured):
 ```
 
 ### C. Deploy Planned Databases
-Only implement the databases already designed:
+Only implement the datasources already designed:
 1. Campaign Master
 2. Content Calendar
 3. STL Membership

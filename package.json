@@ -1,5 +1,5 @@
 {
-  "name": "@quantum-spatial/fresh-glass-theme",
+  "name": "@quantum-spatial/petersen-liquid-void-theme",
   "version": "2.1.0",
   "description": "Oksana Demo Shopify Theme with OksanaPlatform Foundation Model, Apple HIG Compliance, and Quantum Spatial Design System",
   "private": true,
@@ -201,8 +201,8 @@
   },
   "quantum-spatial": {
     "tokens": {
-      "source": "../../Oksana/types/tokens",
-      "fallback": "../quantum-spatial-design-system/tokens",
+      "source": "../../types/tokens",
+      "fallback": "../quantum-spatial/design-system/tokens",
       "output": "./assets/tokens",
       "platforms": [
         "shopify"
@@ -241,8 +241,8 @@
       "version": "2.1.0",
       "store": "your-demo-store.myshopify.com",
       "author": "9Bit Studios",
-      "documentation_url": "https://github.com//fresh-glass-theme",
-      "support_url": "https://9bitstudios.com/support"
+      "documentation_url": "https:/github.com/petsersen-cosmic-horror-dashboard",
+      "support_url": "https:/9bitstudios.io/support"
     },
     "features": {
       "appleHIGCompliant": true,
@@ -253,10 +253,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com//fresh-glass-theme.git"
+    "url": "git+https:/github.com/petsersen-cosmic-horror-dashboard.git"
   },
   "bugs": {
-    "url": "https://github.com//fresh-glass-theme/issues"
+    "url": "https:/github.com/petsersen-cosmic-horror-dashboard/issues"
   },
-  "homepage": "https://github.com//fresh-glass-theme#readme"
+  "homepage": "https:/github.com/petsersen-cosmic-horror-dashboard#readme"
 }

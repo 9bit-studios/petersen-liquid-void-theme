@@ -4,7 +4,7 @@
 
 ### Option 1: One-Command Deployment
 ```bash
-cd /Users/pennyplatt/Documents//petersen-games
+cd /Users/pennyplatt/9BitStudios//petersen-games
 chmod +x deploy-mcp-integration.sh
 ./deploy-mcp-integration.sh
 ```
@@ -13,7 +13,7 @@ chmod +x deploy-mcp-integration.sh
 
 #### Step 1: Navigate to Repository
 ```bash
-cd /Users/pennyplatt/Documents//petersen-games
+cd /Users/pennyplatt/9BitStudios//petersen-games
 ```
 
 #### Step 2: Check Current Status

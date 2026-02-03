@@ -100,7 +100,7 @@ export class OksanaPlatformBridge {
       this.oksanaRoot,
       'strategic-director',
       'quantum-spatial/design-system/apple-intelligence-agency',
-      'quantum-spatial/design-system/apple-intelligence-agency/quantum-leap-suite/AppleIntelligenceStrategicDirectorCoordinator.js'
+      'quantum-spatial/design-system/quantum-leap-suite/AppleIntelligenceStrategicDirectorCoordinator.js'
     );
     if (fs.existsSync(coordinatorPath)) {
       console.log('  ✅ Apple Intelligence Strategic Director: AVAILABLE');

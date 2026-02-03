@@ -212,7 +212,7 @@ declare global {
   
   // Updated ShopifySettings to use proper typing
   interface ShopifySettings extends DawnThemeSettings {
-    [key: string]: any; // Allow for additional dynamic settings
+    // Inherits all properties from DawnThemeSettings
   }
 }
 

@@ -584,7 +584,7 @@ Shopify Sales:
 
 ### Pre-Launch (Complete these first)
 - [ ] Review all reference materials thoroughly
-- [ ] Set up Notion databases from deployment scripts
+- [ ] Set up Notion datasources from deployment scripts
 - [ ] Configure Klaviyo email automation
 - [ ] Connect Grid analytics
 - [ ] Design Shopify-Notion integration

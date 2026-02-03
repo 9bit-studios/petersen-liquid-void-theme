@@ -262,7 +262,7 @@ class PetersenAnalyticsFramework {
       }
     };
 
-    // Create databases with Apple Intelligence enhancement
+    // Create datasources with Apple Intelligence enhancement
     for (const [dbName, structure] of Object.entries(notionStructure)) {
       await this.notionPortal.createIntelligentDatabase({
         name: dbName,
@@ -272,7 +272,7 @@ class PetersenAnalyticsFramework {
       });
     }
 
-    console.log('✅ Notion databases configured with intelligence features');
+    console.log('✅ Notion datasources configured with intelligence features');
   }
 
   // ===============================

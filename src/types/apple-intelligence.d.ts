@@ -208,11 +208,28 @@ declare global {
     analyzeCompliance(element: HTMLElement): HIGValidationResult;
   }
 
+  // HIG Validator API
+  interface HIGValidatorAPI {
+    validateElement(element: HTMLElement): HIGValidationResult;
+    validatePage(): HIGValidationResult;
+    generateReport(): string;
+  }
+
+  // Foundation Bridge API
+  interface FoundationBridgeAPI {
+    enforceTouchTargets(): void;
+    applyGlassEffects(): void;
+    mapShopifyClasses(): void;
+    validate(): boolean;
+    initialize(): void;
+  }
+
   // Global Apple Intelligence Access
   interface Window {
     AppleIntelligenceDirector?: StrategicDirectorAPI;
     designTokens?: DesignTokenCollection;
-    HIGValidator?: (element: HTMLElement) => HIGValidationResult;
+    HIGValidator?: HIGValidatorAPI;
+    FoundationBridge?: FoundationBridgeAPI;
     M4Accelerator?: {
       isAvailable: boolean;
       optimize: (task: any) => Promise<any>;

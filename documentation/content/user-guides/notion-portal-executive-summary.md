@@ -252,7 +252,7 @@ Notion Workspace
 ## ✅ Deliverables Checklist
 
 ### Technical Deliverables
-- [x] Complete database architecture (12 databases)
+- [x] Complete database architecture (12 datasources)
 - [x] Relationship mappings and constraints
 - [x] Automation workflows (4 core + extensible)
 - [x] View configurations (20+ custom views)
@@ -288,10 +288,10 @@ Notion Workspace
 **Implementation Team**
 - Technical Lead: Apple Intelligence Strategic Director
 - Project Manager: Via Oksana Creator Portal Accelerator
-- Support Channel: #oksana-creator-portal-support
+- Support Channel: #oksana-creatrix-portal-support
 
 **Resources**
-- Documentation: `/services/Oksana-creator-portal-*.md`
+- Documentation: `/services/Oksana-creatrix-portal-*.md`
 - Scripts: `/services/notion-setup-*.js`
 - Support: 24/7 via portal
 

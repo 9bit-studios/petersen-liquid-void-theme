@@ -22,51 +22,47 @@ export * from './shopify';
 // Uncomment if needed for theme configuration
 // export * from './dawn-settings';
 
-// Import Oksana Foundation Model types with correct paths
-export type {
-  ServiceConfig,
-  ServiceStatus,
-  ServiceValidationResult
-} from '../../../scripts/services/types/services';
-
-export type {
-  SecureEnvironmentConfig,
-  SecureEnvironmentVariable
-} from '../../../types/secure-environment';
-
-export type {
-  DesignToken,
-  TokenCollection,
-  TokenCategory
-} from '../../../scripts/services/types/tokens';
-
-// Re-export the generated Apple Intelligence enhanced types
-// Note: apple-intelligence.d.ts is more comprehensive and should be primary
-import type { AppleIntelligenceConfig as GeneratedConfig } from './apple-intelligence-enhanced';
-
-// Merge configurations for complete type coverage
-declare global {
-  interface Window {
-    // Apple Intelligence primary interface
-    AppleIntelligence: import('./apple-intelligence').AppleIntelligenceContext;
-    
-    // Foundation CSS integration
-    FoundationIntegration: import('./foundation').FoundationIntegration;
-    
-    // Glass filter system
-    GlassFilter: import('./glass-filter').GlassFilterSystem;
-    
-    // Shopify integration
-    Shopify: import('./shopify').ShopifyTheme;
-    
-    // M4 Neural Engine (from Apple Intelligence)
-    M4NeuralEngine: {
-      optimize: (component: any) => any;
-      accelerate: (fn: Function) => Function;
-      renderTime: string;
-    };
-  }
+// Local type definitions for Oksana Foundation Model
+export interface ServiceConfig {
+  name: string;
+  enabled: boolean;
+  endpoint?: string;
 }
+
+export interface ServiceStatus {
+  status: 'active' | 'inactive' | 'error';
+  message?: string;
+}
+
+export interface ServiceValidationResult {
+  valid: boolean;
+  errors?: string[];
+}
+
+export interface SecureEnvironmentConfig {
+  encryption: boolean;
+  keyStorage: string;
+}
+
+export interface SecureEnvironmentVariable {
+  key: string;
+  encrypted: boolean;
+}
+
+export interface DesignToken {
+  name: string;
+  value: string | number;
+  type: string;
+}
+
+export interface TokenCollection {
+  name: string;
+  tokens: DesignToken[];
+}
+
+export type TokenCategory = 'color' | 'spacing' | 'typography' | 'effect';
+
+// Window interface extensions are defined in main type files
 
 // Export unified configuration type
 export interface UnifiedThemeConfiguration {

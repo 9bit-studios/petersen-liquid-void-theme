@@ -26,7 +26,7 @@
 │   └── packaging-elements/
 ├── content-intelligence-analysis/
 │   ├── grid-analysis-reports/
-│   ├── oksana-creator-portal-data/
+│   ├── oksana-creatrix-portal-data/
 │   └── strategic-recommendations/
 └── implementation-guides/
     ├── database-optimization-plan.md

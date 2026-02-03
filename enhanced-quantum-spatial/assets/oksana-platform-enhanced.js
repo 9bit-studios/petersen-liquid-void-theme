@@ -6,8 +6,8 @@
  * Integrates with:
  * - ShopifyBridgeService: Active
  * - Swift Frontend Service: Active
- * - Creative Intelligence Bridge: Inactive
- * - Figma MCP Server: Unavailable
+ * - Creative Intelligence Bridge: Active
+ * - Figma MCP Server: Available
  * - Quantum-Spatial Design: Active
  */
 

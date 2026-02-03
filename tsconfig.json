@@ -19,7 +19,16 @@
       "@fresh-glass/*": ["./src/*"],
       "@/tokens/*": ["./tokens/*"],
       "@/theme/*": ["./theme/*"],
-      "@/components/*": ["./components/*"]
+      "@/components/*": ["./components/*"],
+      "@/apple-hig/*": [
+        "../../validation/enhanced-apple-hig-qa-validator*"
+      ],
+      "@/quantum-spatial/*": [
+        "../design-system/*"
+      ],
+      "@/sources-of-truth/*": [
+        "../../apple-intelligence/foundation/sources-of-truth/*"
+      ]
     }
   },
 

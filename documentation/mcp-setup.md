@@ -4,7 +4,7 @@
 
 ### 1. Install MCP Dependencies
 ```bash
-cd /Users/pennyplatt/Documents//petersen-games
+cd /Users/pennyplatt/9BitStudios//petersen-games
 npm install @modelcontextprotocol/sdk node-fetch zod
 ```
 

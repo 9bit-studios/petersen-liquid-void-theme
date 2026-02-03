@@ -25,7 +25,7 @@
 - `Cmd/Ctrl + K`: Quick search anything
 - `Cmd/Ctrl + P`: Open page finder
 - `Cmd/Ctrl + /`: Show all commands
-- `Space`: Quick preview in databases
+- `Space`: Quick preview in datasources
 - `Esc`: Exit any modal or view
 
 ##### Siri Voice Commands (Mac/iOS)
@@ -316,7 +316,7 @@ Follow the guided creation process
 ### Advanced Features
 
 #### Linked Databases
-- Create filtered views of main databases
+- Create filtered views of main datasources
 - Embed in project pages
 - Maintain single source of truth
 - Customize per team needs

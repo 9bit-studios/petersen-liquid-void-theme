@@ -43,8 +43,8 @@ declare global {
     Shopify: Shopify;
   }
 
-  declare const Shopify: Shopify;
-  declare const Theme: Theme;
+  const Shopify: Shopify;
+  const Theme: Theme;
 
   type LoadCallback = (error: Error | undefined) => void;
 

@@ -31,7 +31,7 @@ class ShopifyThemeAuditor {
         const studioRoot = path.join(projectRoot, '..');
         
         // Default theme path, can be overridden
-        this.themeRoot = options.themeRoot || path.join(studioRoot, 'petersen-games', 'petersen-games', 'petersen-glass-theme');
+        this.themeRoot = options.themeRoot || path.join(studioRoot, 'quantum-spatial', 'petersen-liquid-void-theme', 'enhanced-quantum-spatial');
         
         // Initialize analysis storage
         this.criticalIssues = [];

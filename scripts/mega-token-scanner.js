@@ -26,9 +26,9 @@ class ComprehensiveTokenScanner {
     this.scanLocations = {
       // Already scanned - React ecommerce dashboard
       reactEcommerce: [
-        path.join(this.projectRoot, 'claude-quantum-design-framework'),
-        path.join(this.projectRoot, 'quantum-spatial-design-system'),
-        path.join(this.projectRoot, 'petersen-games'),
+        path.join(this.projectRoot, 'quantum-spatial/design-system'),
+        path.join(this.projectRoot, 'quantum-spatial/petersen-cosmic-horror-dashboard'),
+        path.join(this.projectRoot, 'quantum-spatial/shopify-unified'),
         path.join(this.projectRoot, 'petersen-games')
       ],
       
@@ -40,14 +40,12 @@ class ComprehensiveTokenScanner {
       
       // M4-accelerated pipeline
       m4Pipeline: [
-        path.join(this.projectRoot, 'apple-intelligence-strategic-director'),
-        path.join(this.projectRoot, 'apple-intelligence-strategic-director/services'),
+        path.join(this.projectRoot, 'apple-intelligence/m4-neural-engine'),
       ],
       
       // Shopify Liquid themes
       shopifyLiquid: [
-        path.join(this.projectRoot, 'petersen-games/shopify-unified'),
-        path.join(this.projectRoot, 'petersen-games/petersen-games'),
+        path.join(this.projectRoot, 'petersen-games/petersen-liquid-void-theme'),
       ],
       
       // Sources of truth and foundations

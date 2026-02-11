@@ -1,5 +1,6 @@
 // Apple HIG Runtime Validator
 // Based on your existing type definitions
+// Window.HIGValidator declared in foundation-bridge.ts
 
 interface HIGValidationResult {
   isCompliant: boolean;

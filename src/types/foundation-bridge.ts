@@ -1,6 +1,18 @@
 // Foundation Bridge: TypeScript Types → CSS Runtime
 // Implements your existing type definitions
 
+interface AppleHIGValidator {
+  validatePage(): { score: number; isCompliant: boolean };
+  generateReport(): string;
+}
+
+declare global {
+  interface Window {
+    FoundationBridge: FoundationBridge;
+    HIGValidator: AppleHIGValidator | undefined;
+  }
+}
+
 class FoundationBridge {
   private root: HTMLElement;
   

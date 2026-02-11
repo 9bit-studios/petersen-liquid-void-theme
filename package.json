@@ -61,7 +61,6 @@
     "zero-tolerance-qa"
   ],
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.71.2",
     "@notionhq/client": "^5.6.0",
     "@shopify/prettier-plugin-liquid": "^1.5.0",
     "@shopify/theme-check-node": "^2.9.0",
@@ -241,7 +240,7 @@
       "version": "2.1.0",
       "store": "your-demo-store.myshopify.com",
       "author": "9Bit Studios",
-      "documentation_url": "https:/github.com/petsersen-cosmic-horror-dashboard",
+      "documentation_url": "https:/github.com/petersen-cosmic-horror-dashboard",
       "support_url": "https:/9bitstudios.io/support"
     },
     "features": {
@@ -253,10 +252,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https:/github.com/petsersen-cosmic-horror-dashboard.git"
+    "url": "git+https:/github.com/petersen-cosmic-horror-dashboard.git"
   },
   "bugs": {
-    "url": "https:/github.com/petsersen-cosmic-horror-dashboard/issues"
+    "url": "https:/github.com/petersen-cosmic-horror-dashboard/issues"
   },
-  "homepage": "https:/github.com/petsersen-cosmic-horror-dashboard#readme"
+  "homepage": "https:/github.com/petersen-cosmic-horror-dashboard#readme"
 }

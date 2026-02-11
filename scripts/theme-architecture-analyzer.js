@@ -21,7 +21,7 @@ export default class ThemeArchitectureAnalyzer {
         
         // Default paths for comparison
         this.designSystemPath = '/Users/pennyplatt/9BitStudios/quantum-spatial/design-system';
-        this.freshGlassThemePath = '/Users/pennyplatt/9BitStudios/quantum-spatial/petersen-games';
+        this.cosmicHorrorDashboard = '/Users/pennyplatt/9BitStudios/quantum-spatial/petersen-cosmic-horror-dashboard';
         this.enhancedQuantumSpatialPath = '/Users/pennyplatt/9BitStudios/quantum-spatial/petersen-games/enhanced-quantum-spatial';
         this.currentThemePath = themePath || this.designSystemPath;
         

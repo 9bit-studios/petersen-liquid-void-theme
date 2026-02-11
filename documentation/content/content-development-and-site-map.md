@@ -1,12 +1,5 @@
 # Content Development and Site Map
 
-Petersen Games Projects : Shopify Store Optimization & Deployment Project (https://www.notion.so/Shopify-Store-Optimization-Deployment-Project-217df58779188118a701f2bce5a1f6d3?pvs=21)
-Content Type: Guide
-Platform: Shopify
-Status: In progress
-Sub-item: Petersen Games Website Copy (https://www.notion.so/Petersen-Games-Website-Copy-21ddf5877918819a9a56c1d4f5201a10?pvs=21), petersen-privacy-policy (https://www.notion.so/petersen-privacy-policy-f3d02c69730d45e7bf5989e758f28503?pvs=21), petersen-terms-conditions (https://www.notion.so/petersen-terms-conditions-972029dc090c439696a34720a856eca5?pvs=21), petersen-returns-policy (https://www.notion.so/petersen-returns-policy-3a314c6ae8e340008d91920c9b74f91c?pvs=21), petersen-help-center (https://www.notion.so/petersen-help-center-7dce6e1149544b85ab288189ccd555e7?pvs=21), petersen-shipping-info (https://www.notion.so/petersen-shipping-info-cb48c45888fb40b996745b001b2b49bc?pvs=21), faq-petersen-games (https://www.notion.so/faq-petersen-games-b30dfecccc904338bc6bc8bdae732e42?pvs=21)
-Sub-item 1: Petersen Games Website Copy (https://www.notion.so/Petersen-Games-Website-Copy-21ddf5877918819a9a56c1d4f5201a10?pvs=21)
-
 # Content Development and Structure
 
 ## **Overview**

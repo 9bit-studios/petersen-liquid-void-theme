@@ -246,7 +246,7 @@ class GiftCardRecipientForm extends Component {
     }
 
     // Add control field when sending to recipient
-    let controlFlag = this.querySelector('input[name="properties[__shopify_send_gift_card_to_recipient]"]');
+    const controlFlag = this.querySelector('input[name="properties[__shopify_send_gift_card_to_recipient]"]');
     if (!controlFlag) {
       const input = document.createElement('input');
       input.type = 'hidden';

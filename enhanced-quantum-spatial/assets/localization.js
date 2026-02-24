@@ -180,7 +180,7 @@ class LocalizationFormComponent extends Component {
       aliasExactMatch: false,
     }
   ) {
-    let matchTypes = {};
+    const matchTypes = {};
     const { aliases, value: iso } = countryEl.dataset;
 
     if (options.matchLabel) {

@@ -269,7 +269,7 @@ class VariableConsistencyValidator {
   }
 
   async generateReadableReport(report) {
-    let markdown = `# Variable Consistency Report
+    const markdown = `# Variable Consistency Report
 
 Generated: ${report.timestamp}
 

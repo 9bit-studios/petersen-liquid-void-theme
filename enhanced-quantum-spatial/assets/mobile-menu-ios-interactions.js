@@ -14,7 +14,7 @@ const MOBILE_CONFIG = {
 // State tracking
 let isMobileMenuOpen = false;
 let currentScrollPosition = 0;
-let isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
+const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
 let isMobile = window.innerWidth <= MOBILE_CONFIG.MOBILE_BREAKPOINT;
 
 // ========================================

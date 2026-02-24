@@ -27,7 +27,7 @@ class FacetsFormComponent extends Component {
    * @returns {URLSearchParams} The processed URL parameters
    */
   createURLParameters(formData = new FormData(this.refs.facetsForm)) {
-    let newParameters = new URLSearchParams(/** @type any */ (formData));
+    const newParameters = new URLSearchParams(/** @type any */ (formData));
 
     if (newParameters.get('filter.v.price.gte') === '') newParameters.delete('filter.v.price.gte');
     if (newParameters.get('filter.v.price.lte') === '') newParameters.delete('filter.v.price.lte');

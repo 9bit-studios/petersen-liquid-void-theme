@@ -196,7 +196,7 @@ class CollectionFilterPopulator {
     
     try {
       // Strategy 1: Direct value match
-      let selectors = [
+      const selectors = [
         `input[value="${value}"]`,
         `input[value*="${value}"]`,
         `input[data-value="${value}"]`,

@@ -92,7 +92,7 @@ class HeaderMenu extends Component {
 
     if (!(event.target instanceof Element)) return;
 
-    let item = findMenuItem(event.target);
+    const item = findMenuItem(event.target);
 
     if (!item || item == this.#state.activeItem) return;
 
@@ -111,7 +111,7 @@ class HeaderMenu extends Component {
     item.ariaExpanded = 'true';
 
     let submenu = findSubmenu(item);
-    let overflowMenuHeight = this.overflowMenu?.offsetHeight ?? 0;
+    const overflowMenuHeight = this.overflowMenu?.offsetHeight ?? 0;
 
     if (!submenu && !isDefaultSlot) {
       submenu = this.overflowMenu;

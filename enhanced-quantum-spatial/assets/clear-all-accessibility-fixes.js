@@ -231,7 +231,7 @@ class ClearAllAccessibilityManager {
     );
     
     let accessibleCount = 0;
-    let totalCount = clearAllButtons.length;
+    const totalCount = clearAllButtons.length;
     
     clearAllButtons.forEach(button => {
       const isVisible = button.offsetWidth > 0 && button.offsetHeight > 0;

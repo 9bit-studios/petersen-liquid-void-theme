@@ -80,7 +80,7 @@ export function startViewTransition(callback, types) {
   return new Promise(async (resolve) => {
     // Check if View Transitions API is supported
     if (supportsViewTransitions() && !prefersReducedMotion()) {
-      let cleanupFunctions = [];
+      const cleanupFunctions = [];
 
       if (types) {
         for (const type of types) {
@@ -238,7 +238,7 @@ export function normalizeString(str) {
  * @returns {string} The formatted value
  */
 export function formatMoney(value) {
-  let valueWithNoSpaces = value.replace(' ', '');
+  const valueWithNoSpaces = value.replace(' ', '');
   if (valueWithNoSpaces.indexOf(',') === -1) return valueWithNoSpaces;
   if (valueWithNoSpaces.indexOf(',') < valueWithNoSpaces.indexOf('.')) return valueWithNoSpaces.replace(',', '');
   if (valueWithNoSpaces.indexOf('.') < valueWithNoSpaces.indexOf(','))

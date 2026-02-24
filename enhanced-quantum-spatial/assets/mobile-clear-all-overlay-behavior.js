@@ -14,7 +14,7 @@ function handleMobileClearAllInOverlay() {
     '.drawer .facets__clear-all'
   ];
   
-  let mobileClearButtons = [];
+  const mobileClearButtons = [];
   mobileSelectors.forEach(selector => {
     const buttons = document.querySelectorAll(selector);
     mobileClearButtons.push(...buttons);

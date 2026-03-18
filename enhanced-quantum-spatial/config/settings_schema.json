@@ -61,7 +61,7 @@
         "id": "creative_intelligence_bridge",
         "label": "🎨 Creative Intelligence Bridge",
         "info": "Connects Figma designs to Shopify automatically",
-        "default": true
+        "default": false
       }
     ]
   },

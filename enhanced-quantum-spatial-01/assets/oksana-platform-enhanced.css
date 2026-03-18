@@ -6,11 +6,11 @@
   /* OksanaPlatform Integration Variables */
   --oksana-platform-version: '2.1.0';
   --shopify-bridge-active: 1;
-  --creative-intelligence-active: 0;
-  --quantum-spatial-active: 0;
+  --creative-intelligence-active: 1;
+  --quantum-spatial-active: 1;
 }
 
-
+/* HERITAGE Token State */body[data-quantum-state="heritage"] {  --color-primary: #131A36;  --color-secondary: #331F4A;  --color-accent: #5AC8FA;  --color-background: #FFFFFF;  --color-text: #1A1A1A;  --color-surface: #F7F7F7;  --color-border: #E0E0E0;  --color-success: #00C853;  --color-warning: #FFD600;  --color-error: #FF3D00;  --spacing-unit: 8px;  --spacing-grid: 8;  --spacing-scale: [object Object];}/* QUANTUM Token State */body[data-quantum-state="quantum"] {  --color-primary: #131A36;  --color-secondary: #331F4A;  --color-accent: #5AC8FA;  --color-background: [object Object];  --color-text: [object Object];  --color-surface: [object Object];  --color-border: [object Object];  --color-success: #00D26A;  --color-warning: #FFB800;  --color-error: #FF4D4F;  --spacing-unit: 4px;  --spacing-grid: 4;  --spacing-scale: [object Object];}/* SUPERPOSITION Token State */body[data-quantum-state="superposition"] {  --color-primary: #6A3093;  --color-secondary: #BF4080;  --color-accent: #5AC8FA;  --color-vibrant: #FF2D55;  --color-background: [object Object];  --color-text: [object Object];  --color-surface: [object Object];  --color-border: [object Object];  --color-success: #00D26A;  --color-warning: #FFB800;  --color-error: #FF4D4F;  --color-energy: [object Object];  --spacing-unit: 4px;  --spacing-grid: 4;  --spacing-scale: [object Object];}/* TRANSITIONAL Token State */body[data-quantum-state="transitional"] {  --color-primary: #131A36;  --color-secondary: #331F4A;  --color-accent: #5AC8FA;  --color-background: #FFFFFF;  --color-text: #121212;  --color-surface: #F8F9FA;  --color-border: #E4E7EB;  --color-success: #00C170;  --color-warning: #FFC400;  --color-error: #FF4C4C;  --spacing-unit: 8px;  --spacing-grid: 8;  --spacing-scale: [object Object];}
 /* Apple HIG Compliance Styles */
 .apple-hig-compliant {
   --font-family-system: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', system-ui, sans-serif;

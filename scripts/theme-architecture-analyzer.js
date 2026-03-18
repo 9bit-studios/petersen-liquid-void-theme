@@ -20,9 +20,9 @@ export default class ThemeArchitectureAnalyzer {
         }
         
         // Default paths for comparison
-        this.designSystemPath = '/Users/pennyplatt/9BitStudios/quantum-spatial/design-system';
-        this.cosmicHorrorDashboard = '/Users/pennyplatt/9BitStudios/quantum-spatial/petersen-cosmic-horror-dashboard';
-        this.enhancedQuantumSpatialPath = '/Users/pennyplatt/9BitStudios/quantum-spatial/petersen-games/enhanced-quantum-spatial';
+        this.designSystemPath = '/Users/pennyplatt/9BitStudios/Oksana/quantum-spatial/design-system';
+        this.cosmicHorrorDashboard = '/Users/pennyplatt/9BitStudios/Oksana/quantum-spatial/petersen-cosmic-horror-dashboard';
+        this.enhancedQuantumSpatialPath = '/Users/pennyplatt/9BitStudios/Oksana/quantum-spatial/petersen-liquid-void-theme/enhanced-quantum-spatial';
         this.currentThemePath = themePath || this.designSystemPath;
         
         this.analysisResults = {

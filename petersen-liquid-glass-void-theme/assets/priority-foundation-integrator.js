@@ -17,7 +17,7 @@ const path = require('path');
 
 class PriorityFoundationIntegrator {
   constructor() {
-    this.baseDir = '/Users/pennyplatt/9bit-studios/petersen-portal/fresh-glass-theme/petersen-glass-theme';
+    this.baseDir = path.join(process.env.OKSANA_ROOT || '/Users/pennyplatt/9BitStudios/Oksana', 'quantum-spatial/petersen-liquid-void-theme/petersen-liquid-glass-void-theme');
     this.foundationVariables = new Set();
     this.priorityStyles = new Map();
     
